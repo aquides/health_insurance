@@ -67,42 +67,22 @@ O DataSet possui as seguintes informações.
 ![image](https://user-images.githubusercontent.com/104724574/168607111-8ab591fa-95ee-49d0-ac6b-69d7eef69d7c.png)
 
 
-2. Lojas com competidores mais próximos deveriam vender menos.
+2. Homens causam mais acidentes.
 
-**Falso**, lojas com competidores nas proximidades tendem a vender mais
+**Verdadeiro**, homens em média  envolvem em mais acidentes
 
-![image](https://user-images.githubusercontent.com/104724574/168181284-511ea1b6-b639-40ef-bcd2-a48766689190.png)
+![image](https://user-images.githubusercontent.com/104724574/168803996-dcad1b20-37b3-4769-b95d-3b330da85c86.png)
 
-3. Lojas com promoções ativas por mais tempo vendem menos, depois de um certo periodo de promoção
+3. Pessoas com veículos mais novos tendem a serem mais propícias a contratar um seguro veicular
 
-**Falso**, lojas com promoções ativas a mais tempo vendem menos depois de certo período de tempo
+**FALSO**, pessoas com veículos acima de 2 anos serão mais propicias para a contratação de seguro veicular
 
-![image](https://user-images.githubusercontent.com/104724574/168181165-766b0c05-d498-43ea-b788-bffb91011ef5.png)
-
-
-4. Lojas deveriam vender mais ao longo dos anos.
-
-**Falso**, o fluxo de vendas anuais estão em constante caimento
-
-![image](https://user-images.githubusercontent.com/104724574/168180602-1b8ab372-a741-4650-81ef-8e8e16c91bc5.png)
-
-
-##### OBS: Quando tal dataset foi publicado os dados de 2015 ainda não estavam fechado, entretanto é perceptivel a decaděcia do volume de vendas.
 
 ##Machine learning Models
 
 Algoritmos utilizados para a predição foram:
- • Modelo e média 
- • Linear Regression
- • Linear Regression Regularized (Lasso)
- • Random Forest Regressor
- • XGBoost Regressor
- 
- • MAE (Mean Absolute error) - Mostra o erro médio absoluto do modelo, tanto para mais quanto para menos.
- • MAPE (Mean Absolute percentage error) - Erro médio absoluto em percentual.
- • RMSE (Root mean squared error) - Erro médio absoluto quadrado, erro médio absoluto elevado ao quadrado. Não é a melhor métrica para uma análise de negócios, porém é muito util para avaliar a performance do modelo em si.
- 
- ![image](https://user-images.githubusercontent.com/104724574/168181789-b3dfbf25-09e5-4846-8a4e-16e067a44a37.png)
+ • KNN
+ • Logistic Regression
  
  Após a aplicação do Cross Validation e Fine Tuning optei por usar o XGBoost como modelo base visto que era uma modelo mais leve e rápido em compração com o de Random Forest 
 
