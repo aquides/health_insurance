@@ -77,32 +77,35 @@ O DataSet possui as seguintes informações.
 
 **FALSO**, pessoas com veículos acima de 2 anos serão mais propicias para a contratação de seguro veicular
 
+![image](https://user-images.githubusercontent.com/104724574/168929476-1f607a84-2f54-4526-9036-fdc2bfe298ac.png)
+
 
 ##Machine learning Models
 
 Algoritmos utilizados para a predição foram:
  • KNN
  • Logistic Regression
- 
- Após a aplicação do Cross Validation e Fine Tuning optei por usar o XGBoost como modelo base visto que era uma modelo mais leve e rápido em compração com o de Random Forest 
+ • Extra Trees
+ • Decision Tree
+ • XGBoost Regressor
 
-![image](https://user-images.githubusercontent.com/104724574/168182276-b8d2d989-bb04-4f74-9af6-23d765d9d8d6.png)
+
+ 
+ Após a analise dos resultados, optei por usar o Logistic Regression como modelo base visto que era uma modelo mais leve os de Decision Tree e ja entrega um resultado satisfatorio
+ 
+![image](https://user-images.githubusercontent.com/104724574/168929674-ed39c541-f2c5-4a7b-be76-be2b6dfe4c8d.png)
 
 ## Resultados
-Apòs a tradução da performance do algoritmo de machine learning foi possivel demonstrar de maneira facil de se absorver qual seria o arrecadamento de cada loja no período estipulado
+Com base no modelo de machine learning aplicado, foi possivel conceber que, na base em questao com 76 mil clientes, ao se realizar 28120 ligações, respectivo a cerca de 36% dos clientes totais, seria possível cobrir 80% dos clientes potencialmente interessados de acordo com o perfil criado pelo algoritmo.
 
-![image](https://user-images.githubusercontent.com/104724574/168182378-403c5159-bd52-4b5a-8f4b-6697f1ffd8e4.png)
+![edit](https://user-images.githubusercontent.com/104724574/168930878-165d8d68-2bb0-40e4-a650-e23ed767891b.png)
+
 
 ## Modelo em produção
  
-  •  A API foi hospedada na Cloud Heroku e pode ser acessada aprtir deste url: https://rossmann--sales--prediction.herokuapp.com/rossmann/predict
-  
-  • O bot Telegram esta disponivel atraves deste link: t.me/rossmann_week_prediction_bot
-    Para a consulta individual e rápida de alguma predição, basta entrar em contato com o Bot pelo link acima e digitar o número da loja
-    
- ![image](https://user-images.githubusercontent.com/104724574/168182928-58c7abf1-8f3e-4bb9-8699-b134f8604187.png)
+  •  A API foi hospedada na Cloud Heroku e pode ser acessada aprtir deste url: https://insurance--cross--sell.herokuapp.com/predict
 
  
  ## Conclusão
  
- Com o resultado deste projeto tivemos uma performance satisfatoria visto que o modelo, mesmo sendo simples, apresentou um baixo erro (em comparação com a grandeza de valores do fluxo de vendas).
+ Com o resultado deste projeto tivemos uma performance satisfatoria visto que o modelo, mesmo sendo simples, apresentou uma solução mais inteligente ofertar produtos com maior chance de exito do que apenas ligar aleatoriamente para os 76000 clientes
