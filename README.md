@@ -83,10 +83,15 @@ O DataSet possui as seguintes informações.
 ## Machine learning Models
 
 Algoritmos utilizados para a predição foram:
+
  • KNN
+ 
  • Logistic Regression
+ 
  • Extra Trees
+ 
  • Decision Tree
+ 
  • XGBoost Regressor
 
 
