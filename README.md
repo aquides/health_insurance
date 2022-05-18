@@ -80,7 +80,7 @@ O DataSet possui as seguintes informações.
 ![image](https://user-images.githubusercontent.com/104724574/168929476-1f607a84-2f54-4526-9036-fdc2bfe298ac.png)
 
 
-##Machine learning Models
+## Machine learning Models
 
 Algoritmos utilizados para a predição foram:
  • KNN
