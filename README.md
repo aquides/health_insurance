@@ -1,4 +1,4 @@
-**Disclaimer**: O Contexto a seguir, é completamente fictício, a empresa, o contexto, as perguntas de negócio foram criadas apenas para o desenvolvimento do projeto, e se baseiam em um desafio do Kaggle.
+**Disclaimer**: O Contexto a seguir, é completamente fictício, a empresa, e os as perguntas de negócio foram criadas apenas para o desenvolvimento do projeto, e se baseiam em um desafio do Kaggle.
 
 # HEALTH INSURANCE CROSS SELL 
 
